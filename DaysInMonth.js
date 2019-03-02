@@ -1,4 +1,4 @@
-const DaysInMonth = (month, year) => {
+Date.prototype.getDaysInMonth = function(month, year){
   month = month || new Date().getMonth();
   year = year || new Date().getFullYear();
 
